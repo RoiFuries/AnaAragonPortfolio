@@ -188,7 +188,7 @@
 			=============================
 			* Use classes "ph-xs", "ph-sm", "ph-lg" or "ph-xlg" to set page header size.
 			* Use class "ph-center" or "ph-right" to align page header caption.
-			-->
+			->
 			
 			<section id="tt-intro" class="intro-full">
 				<div class="tt-intro-inner"> <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
@@ -199,13 +199,13 @@
 					* Do not forget to add your background image for mobile devices (because the video background doesn't work on mobile devices).
 					* YTPlayer may not work in the local computer. It works properly only if used under a web server.
 					* Read more info about YTPlayer: https://github.com/pupunzi/jquery.mb.YTPlayer
-					-->
-					<div class="youtube-bg-wrap parallax-6 bg-dark"> <!-- Class "parallax-6" is for tt-intro only!!! -->
+					->
+					<div class="youtube-bg-wrap parallax-6 bg-dark"> <!-- Class "parallax-6" is for tt-intro only!!! ->
 						<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/929133639?h=72e0c99176&title=0&byline=0&portrait=0autoplay=1&amp;background=1&amp;hd=1&amp;loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 					</div>
 
 
-					<!-- End YTPlayer  -->
+					<!-- End YTPlayer  ->
 
 					<!-- Begin intro caption 
 					=========================
@@ -213,7 +213,7 @@
 					* Size classes: "intro-caption-xs", "intro-caption-sm", "intro-caption-lg", "intro-caption-xlg", "intro-caption-xxlg".
 					* Use class "parallax-1" up to "parallax-6" to enable parallax effect (no effect on mobile devices!).
 					* Use class "fade-out-scroll-1" up to "fade-out-scroll-6" to enable fade out effect if page scrolls (no effect on mobile devices!).
-					-->
+					->
 					<div class="intro-caption-wrap caption-animate intro-caption-lg bottom-left parallax-4">
 						<div class="intro-caption-holder">
 							<div class="intro-caption center">
@@ -236,20 +236,21 @@
 								</div>
 								<!-- End intro buttons ->
 
-							</div> <!-- /.intro-caption -->
-						</div> <!-- /.intro-caption-holder -->
+							</div> <!-- /.intro-caption ->
+						</div> <!-- /.intro-caption-holder ->
 					</div>
-					<!-- End intro caption wrap -->
+					<!-- End intro caption wrap ->
 					
-				</div> <!-- /.tt-intro-inner -->
+				</div> <!-- /.tt-intro-inner ->
 			</section>
 			
-			
-			
-			
-			
 			<!-- End page header -->
+			<section class="reel">
+				<div class="reel_vimeo">
+					<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/929133639?h=72e0c99176&title=0&byline=0&portrait=0autoplay=1&amp;background=1&amp;hd=1&amp;loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
+				</div>
+			</section>
 
 			<!-- ===================================
 			///// Begin portfolio list section /////
@@ -314,10 +315,11 @@
 								<ul class="isotope-filter-links">
 									<li class="ifl-title"><span>Filter: </span></li>
 									<li><button class="active" data-filter="*">Show All</button></li>
-									<li><button data-filter=".branding">Movies</button></li>
+									
+									<!-- <li><button data-filter=".branding">Movies</button></li> -->
 									<li><button data-filter=".add">Commercials</button></li>
 									<li><button data-filter=".videoclip">Videoclips</button></li>
-									<li><button data-filter=".motion">Series</button></li>
+									<!-- <li><button data-filter=".motion">Series</button></li> -->
 								</ul>
 								<!-- End isotope filter links -->
 							</div>
@@ -547,7 +549,7 @@
 							
 
 						
-							<div class="isotope-item branding iso-height-1">
+							<div class="isotope-item add iso-height-1">
 
 								<!-- Begin portfolio list item -->
 								<div class="portfolio-list-item">
@@ -707,7 +709,7 @@
 							========================== 
 							* If you use background image on isotope-item child element, then you need to use class "iso-height-1" or "iso-height-2" to set the item height. If you use simple image tag, then don't use height classes.
 							-->
-							<div class="isotope-item videoclip branding iso-height-1">
+							<div class="isotope-item add iso-height-1">
 
 								<!-- Begin portfolio list item -->
 								<div class="portfolio-list-item">
@@ -1411,7 +1413,7 @@
 							</div>
 							<!-- End isotope item -->
 							
-							<div class="isotope-item add iso-height-1">
+							<div class="isotope-item videoclip iso-height-1">
 
 								<!-- Begin portfolio list item -->
 								<div class="portfolio-list-item">
